@@ -1,0 +1,50 @@
+.music_card {
+  border-radius: 0;
+  display: flex;
+  width: 100%;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  background-color: rgb(44, 44, 44);
+  height: 30vh;
+  position: relative;
+  img {
+    padding-top: 0.5rem;
+    width: 80%;
+    margin: auto;
+  }
+  .play_toggle {
+    width: 3rem;
+    height: 3rem;
+    padding-top: 0.9rem;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10;
+    right: 10;
+    z-index: 2;
+    text-align: center;
+    color: white;
+  }
+  .add_to_playlist {
+    padding: 0.3rem;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.541);
+    box-shadow: 1px 1px 3px rgba(44, 44, 44, 0.7);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  p {
+    color: white;
+    padding: 10px 0;
+    margin: auto;
+    font-weight: bold;
+    font-size: small;
+  }
+  &:hover {
+    background-color: rgba(44, 44, 44, 0.2);
+  }
+}

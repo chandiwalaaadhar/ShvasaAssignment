@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(43, 43, 43);
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.8);
+  .content_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85vw;
+    height: 100%;
+    padding: 1rem;
+    .title {
+      color: white;
+      height: max-content;
+      padding-left: 1rem;
+      padding-top: 10vh;
+      margin: 0;
+      background-color: rgba(43, 43, 43, 0.8);
+    }
+  }
+}

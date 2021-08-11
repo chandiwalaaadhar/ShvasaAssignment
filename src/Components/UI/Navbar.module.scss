@@ -1,0 +1,21 @@
+.nav_container {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  z-index: 10;
+  .button {
+    color: black;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20vh;
+    text-align: center;
+    padding: 0.4rem 1.5rem;
+    background-color: bisque;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
